@@ -3,6 +3,10 @@
 var common = require('./ts-morph-common');
 var CodeBlockWriter = require('code-block-writer');
 
+exports.common = common;
+exports.bootstrap = require('./ts-morph-bootstrap');
+exports.typescript = require('./typescript');
+
 function _interopDefaultCompat (e) { return e && typeof e === 'object' && 'default' in e ? e : { default: e }; }
 
 var CodeBlockWriter__default = /*#__PURE__*/_interopDefaultCompat(CodeBlockWriter);

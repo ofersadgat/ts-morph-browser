@@ -1,4 +1,11 @@
+import * as bootstrap from "./ts-morph-bootstrap";
+import * as common from "./ts-morph-common";
+import * as typescript from "./typescript";
 import { errors, StandardizedFilePath, ts } from "./ts-morph-common";
+
+export const bootstrap;
+export const common;
+export const typescript;
 
 /** Holds the compiler options. */
 export declare class CompilerOptionsContainer extends SettingsContainer<ts.CompilerOptions> {
